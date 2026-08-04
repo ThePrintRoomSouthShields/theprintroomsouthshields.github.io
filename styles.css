@@ -12,3 +12,37 @@
 @media(max-width:600px){.brand span{display:none}.topbar{padding:8px 3%}.hero-copy{padding:45px 6%}.script{font-size:1.8rem}.hero h1{font-size:3.3rem}.hero-image img{height:290px}.benefits,.services,.gallery,.review-grid{grid-template-columns:1fr}.gallery img{height:300px}.actions .button{width:100%}.contact-card div{flex-direction:column}.contact-card span{text-align:left}.site-footer{flex-direction:column;text-align:center}.site-footer p{margin:0}}
 .top-banner{background:var(--cream)}.top-banner img{width:100%;height:auto;object-fit:contain}.mobile-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;padding:22px 4%;background:var(--cream)}.outline-dark{background:#fff;color:var(--navy);border-color:var(--navy)}.welcome{text-align:center;padding:56px 0}.welcome h1{font-family:Georgia,serif;font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.05;color:var(--navy);margin:.15em 0}.darktext{color:#56616a;margin:0 auto;max-width:800px}.topbar{position:relative}
 @media(max-width:600px){.top-banner img{width:100%;height:auto}.mobile-actions{padding:16px 5%}.mobile-actions .button{width:100%}.welcome{padding:44px 5%}.topbar{position:relative}}
+
+/* GitHub live-image fixes */
+.brand img{
+  width:76px;
+  height:76px;
+  object-fit:contain;
+  border:none;
+  border-radius:0;
+  padding:0;
+}
+.site-footer img{
+  width:92px;
+  height:92px;
+  object-fit:contain;
+  border-radius:0;
+}
+.top-banner{
+  width:100%;
+  overflow:hidden;
+  background:#f6f3eb;
+}
+.top-banner img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:none;
+  object-fit:contain;
+  object-position:center;
+}
+@media(max-width:600px){
+  .brand img{width:70px;height:70px}
+  .site-footer img{width:100px;height:100px}
+  .top-banner img{width:100%;height:auto;object-fit:contain}
+}

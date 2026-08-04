@@ -1,6 +1,13 @@
-# The Print Room South Shields v3
+# Fixed live website files
 
-AI samples throughout and a customer reviews section.
+These files are deliberately all placed in the repository root.
 
-## Publish on GitHub Pages
-Create a public repository named `theprintroomsouthshields.github.io`, upload all files and the assets folder, then enable GitHub Pages from the main branch/root.
+Upload and replace:
+- index.html
+- styles.css
+- script.js
+- logo-cropped.png
+- top-banner.png
+- all JPG sample images
+
+GitHub Pages will redeploy automatically after committing the replacements.
